@@ -1,0 +1,195 @@
+
+#container{
+  width:100%;
+}
+body{
+  color:grey;
+}
+
+header{
+  word-spacing: 1em;
+  margin-top: 0;
+  
+
+}
+.link-btn{
+  border-radius: 40px;
+  height:30px;
+  width: 60%;
+  position: fixed;
+  border: solid transparent;
+  margin-left: 1em;
+  float: left;
+  word-spacing: 1em;
+
+}
+.fas:hover{
+background-color: #ccc;
+border-radius: 50%;
+
+}
+.fas.fa-lock{
+  float: left;
+  color:black;
+
+
+}
+.fas.fa-lock:hover{
+  cursor: default;
+ 
+
+  
+}
+.far.fa-star{
+  float: right;
+  color:black;
+   cursor: default;
+
+border-radius: 50%;
+}
+span{
+  float: left;
+  padding-left: 10px;
+  cursor:text; 
+
+}
+.hr1{
+  margin-top: 1em;
+}
+
+.profile-pic{
+  width:23px;
+  height: 23px;
+  border-radius: 50%;
+ float: right;
+  margin-right:2em;
+
+  
+}
+.fas.fa-ellipsis-v{
+  float: right;
+  margin-right:-3em;
+  padding: 5px;
+}
+
+
+
+nav{
+  float: right;
+  word-spacing: 1em;
+  cursor: pointer;
+  color:black;
+  text-decoration-style: none;
+  list-style-type: none;
+  height:100px;
+
+}
+.nav-links{
+  text-decoration: none;
+  color: black;
+
+}
+.nav-links:hover{
+text-decoration: underline;
+}
+
+.fas.fa-braille{
+  margin-right: 2em;
+}
+
+.section-1{
+  margin-top: 2em;
+  height:200px;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: grey;
+}
+
+
+.search-btn{
+border-radius: 50px;
+  height:40px;
+  width: 50%;
+  position: fixed;
+  border: solid transparent;
+  margin-left: 1em;
+  float: left;
+  word-spacing: 1em;
+
+
+}
+.search-btn:hover{
+  cursor: text;
+
+}
+.fas.fa-search{
+  float: left;
+  color:black;
+
+}
+.far.fa-keyboard{
+float: right;
+  color:black;
+  padding: 5px;
+}
+.fas.fa-microphone{
+  float: right;
+  color:black;
+    padding: 5px;
+
+}
+
+.btn{
+   margin-top: 4em; 
+   text-align: center;
+   width: 10em;
+   height:2em;
+   padding: 5px;
+   border:solid transparent;
+   cursor: pointer;
+
+}
+
+.normal-text{
+  color:grey;
+}
+.blue-text{
+  color: blue;
+}
+.offered-languages{
+ 
+}
+
+.section-2{
+  margin-top: 17em;
+  height:50px;
+  background-color: #ccc;
+  padding: 5px;
+  padding-left: 2em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.section-3{
+  margin-top: 0em;
+  word-spacing: 0em;
+  height:50px;
+  background-color: #ccc;
+  padding: 5px;
+  padding-left: 2em;
+  border-top: 1px solid grey;
+  cursor: pointer;
+}
+
+@media (max-width: 760px){
+  .offered-languages{
+    display: none;
+  }
+  .btn{
+    display: none;
+  }
+}
