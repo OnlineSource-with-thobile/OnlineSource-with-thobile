@@ -1,0 +1,109 @@
+.container{
+	width:100%;
+}
+.btn-group button{
+	background-color:#2d767f;
+	border:1px solid transparent;
+	color:white;
+	padding:10px 24px;
+	cursor:pointer;
+	float:left;
+}
+.btn-group:after{
+	content:" ";
+	clear:both;
+	display:table;
+
+}
+.btn-group:not(:last-child){
+	border-right: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+/* Vertical Css   */
+.btn-vetical-group button{
+	background-color:#fff;
+	border:1px solid #ccc;
+	border-left:none;
+	color:black;
+	padding:10px 24px;
+	cursor:pointer;
+	width:100%;
+	height:100px;
+	display:block;
+}
+.btn-vetical-group button:not(:last-child){
+	border-bottom:none;
+}
+.chat-names{
+	float:left;
+}
+.profile-pics{
+	border-radius:50%;
+	width:40px;
+	height:40px;
+	padding:5px;
+	float:left;
+}
+.fas.fa-check-double{
+	color:blue;
+}
+.fas.fa-check{
+	color:grey;
+}
+.convo{
+	margin-left:2em;
+}
+.message-time{
+	float:right;
+}
+
+
+/* Status css */
+.status-options{
+	float:right;
+}
+.status-names{
+	float:left;
+}
+.update-time{
+	margin-left:2em;
+}
+
+
+
+
+/* Calls css */
+.fas.fa-arrow-down{
+	color:lime;
+	transform:rotate(55deg);
+}
+.connection{
+	float:right;
+	color:#2d767f;
+}
+.connection-update{
+	margin-left:2em;
+	word-spacing:0em;
+}
+
+
+/* Calls main icon */
+.main-icon-div{
+	float:right;
+	margin-right:5em;
+	margin-top:2em;
+}
+.main-icons-btn{
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	border:solid transparent;
+	background-color:lime;
+	cursor:pointer;
+}
