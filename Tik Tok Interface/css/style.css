@@ -1,0 +1,67 @@
+body{
+	background: black;
+	font-family: Poppins;
+}
+.container{
+	width: 100%;
+	color: transparent;
+}
+.btn-group button{
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: white;
+	padding: 15px 24px;
+	cursor: pointer;
+	float: left;
+	font-weight: bold;
+}
+.btn-group: after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.btn-group:not(last-child){
+	border-right: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.profile-pic{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+li{
+	color: white;
+}
+.btn-vertical-group button{
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-left: none;
+	border-right: none;
+	color: white;
+	padding-left: 2em;
+	cursor: pointer;
+	width: 100%;
+	height: 110px;
+}
+.btn-vertical-group button:not(:last-child){
+	border-bottom: none;
+}
+
+#background-video{
+	width: 100vw;
+	height: 83.5vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.chat-names{
+	float: left;
+}
+
